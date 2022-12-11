@@ -1,0 +1,42 @@
+/*index*/
+* {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+
+#odin {
+    text-align: center;
+    background-color: wheat;
+}
+
+.header {
+    color: blue;
+    font-weight: 800;
+    font-size: 35px;
+    background-color: wheat;
+}
+
+.sanji {
+    height: auto;
+    width: 1020px;
+}
+
+button {
+    font-size: 25px;
+}
+
+/*Recipes*/
+.images {
+    height: auto;
+    width: 700px;
+}
+
+p, li, h2 {
+    text-align: left;
+}
+
+h2 {
+    background-color: wheat;
+}
+
