@@ -11,10 +11,15 @@ img {
     width: 500px;
 }
 
+h2 {
+    background-color: #a7635a;
+}
+
 /* Homepage Styles */
 .header,
 .img,
-.recipes {
+.recipes,
+h1 {
     text-align: center;
 }
 
