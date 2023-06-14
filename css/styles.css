@@ -11,13 +11,13 @@ img {
     width: 500px;
 }
 
-h2 {
+h2,
+h1 {
     background-color: #a7635a;
 }
 
 /* Homepage Styles */
 .center,
-.recipes,
 h1 {
     text-align: center;
 }
@@ -28,4 +28,9 @@ h1 {
 
 button {
     font-size: large;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
 }
