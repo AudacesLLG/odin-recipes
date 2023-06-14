@@ -28,9 +28,12 @@ h1 {
 
 button {
     font-size: large;
+    background-color: #f4dbd6;
 }
 
 a {
     color: black;
     font-weight: bolder;
+    text-decoration: none;
+    background-color: #f4dbd6;
 }
