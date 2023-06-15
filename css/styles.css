@@ -1,6 +1,16 @@
 /* CSS Stylesheet */
 
 /* Universal Properties */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 * {
     background-color: #ffe3d5;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +24,8 @@ img {
 h2,
 h1 {
     background-color: #a7635a;
+    border: 3px dashed black;
+    padding: 5px;
 }
 
 /* Homepage Styles */
@@ -27,8 +39,14 @@ h1 {
 }
 
 button {
+    display: inline-block;
     font-size: large;
     background-color: #f4dbd6;
+    height: 80px;
+    width: 250px;
+    padding: 1em;
+    border: 5px double #a7635a ;
+    margin: 5px;
 }
 
 a {
